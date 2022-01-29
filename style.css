@@ -1,0 +1,21 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.name-highlite{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 1%%;
+    padding: 2%;
+}
+.half-width img{
+    width: 95%;
+}
+button{
+    background-color: rgb(255, 0, 0);
+}
