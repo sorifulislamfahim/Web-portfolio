@@ -1,8 +1,20 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 1px 0px;
 }
 h1{
-    font-size: 50px;
+    font-size: 170px;
+}
+h2{
+    font-size: 150px;
+}
+h3{
+    font-size: 70px;
+}
+p{
+    font-size: 60px;
+    color: darkviolet;
+    font-style: italic;
 }
 .name-highlite{
     color: orange;
@@ -10,12 +22,43 @@ h1{
 .half-width{
     width: 40%;
     float: left;
-    margin: 1%%;
-    padding: 2%;
+    margin: 0% 4%;
+    padding: 3% 1%;
 }
 .half-width img{
-    width: 95%;
+    width: 100%;
 }
-button{
-    background-color: rgb(255, 0, 0);
+.top{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+    padding-right: 1px;
+}
+section{
+    height: 100px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( 45deg, lightsalmon, tomato );
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 60px;
+}
+.end{
+    float: left;
+    padding: 1%;
+    background-image: url(image/exp-bg.png);
+    background-position-x: left;
+    background-repeat: no-repeat;
+}
+.singel-expreance{
+    box-shadow: 10px 10px 90px grey;
+    margin: 0% 3%;
+    padding: 1% 1% ;
+    min-height: 80%;
+    border-radius: 50px;
+    width: 40%;
 }
